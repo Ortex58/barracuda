@@ -1,0 +1,39 @@
+.selectdiv {
+  position: relative;
+  display: inline-block;
+}
+
+.selectdiv:after {
+    content: url(../img/flags/wy.png);
+    right: 5px;
+    top: -5px;
+    position: absolute;
+    pointer-events: none;
+
+
+}
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv select {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  display: block;
+  width: 100%;
+  max-width: 112px;
+  height: 13px;
+  float: right;
+  -ms-word-break: normal;
+  word-break: normal;
+  text-decoration: dashed underline;
+  color: #717274;
+  font-family: "Segoe UI - Semilight";
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.24px;
+}

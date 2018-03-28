@@ -14,5 +14,6 @@
   .header__nav__nav1 ul li a .fa-search {
     color: #d60202;
     border-bottom: transparent; }
-  .header__nav__nav1 ul li a .select-phone .filter_selector {
-    width: 50px; }
+  .header__nav__nav1 ul li a .select-phone {
+    position: relative;
+    border: none; }
