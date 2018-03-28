@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu:400,500');
+@font-face {
+    font-family: Proxima Nova;
+    src: url('../font/Proxima Nova.ttf');
+}
+
+
+.main-wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.header {
+	max-width: 1145px;
+	margin: 0 auto;
+	min-height: 80px;
+	&__nav {
+		&__nav1 {
+			ul {
+				li {
+					a {
+						.fa-search {
+							color: #d60202;
+							border-bottom: transparent;
+						}
+						
+						//border-bottom: 1px dashed #717274;
+						.select-phone {
+							appearance: none;
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
