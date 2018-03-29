@@ -5,7 +5,7 @@
 
 .selectdiv:after {
     content: url(../img/flags/wy.png);
-    right: 5px;
+    right: -2px;
     top: -5px;
     position: absolute;
     pointer-events: none;
@@ -35,6 +35,7 @@ display: none;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.24px;
+  outline: 0;
 }
 /* Lang */
 .lang {
@@ -73,4 +74,45 @@ display: none;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.24px;
+  outline: 0;
+}
+/* select Form*/
+
+.selectForm {
+  position: relative;
+  display: inline-block;
+}
+
+.selectForm:after {
+    content: url(../img/flags/down-arrow.png);
+    right: 12px;
+    top: 10px;
+    position: absolute;
+    pointer-events: none;
+
+
+}
+select::-ms-expand {
+display: none;
+}
+
+.selectForm select {
+  border: 1px solid #b0bec1;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  display: block;
+  width: 352px;
+  padding-left: 20px;
+  height: 44px;
+  float: right;
+  -ms-word-break: normal;
+  word-break: normal;
+  color: #717274;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 300;
+  /*line-height: 38px;*/
 }

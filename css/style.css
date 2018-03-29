@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Segoe UI - Semilight";
-  src: url("../font/segoeuisl.ttf"); }
+  src: url("../font/10393.ttf"); }
 
 @font-face {
   font-family: "DIN Pro";
@@ -182,3 +182,246 @@ ul {
         top: 118px; }
       .slider__slide__img--heigth {
         height: 100%; }
+
+.products {
+  text-align: center; }
+  .products__title h3 {
+    font-family: "DIN Pro";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 23px; }
+  .products__title a {
+    display: block;
+    color: #d60202;
+    font-family: "Proxima Nova T - Thin";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none; }
+    .products__title a img {
+      margin-left: 5px; }
+  .products__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap; }
+    .products__items__item {
+      margin-bottom: 20px; }
+      .products__items__item__up {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 255px;
+        height: 315px; }
+        .products__items__item__up span {
+          z-index: 300;
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          width: 38px;
+          height: 18px;
+          border: 1px solid #d60202;
+          color: #d60202;
+          font-family: "Segoe UI";
+          font-size: 10px;
+          font-weight: 300;
+          line-height: 17px;
+          text-transform: uppercase; }
+        .products__items__item__up__show {
+          display: none;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(33, 33, 33, 0.9);
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          .products__items__item__up__show button {
+            cursor: pointer;
+            width: 160px;
+            height: 48px;
+            border: 1px solid #ffffff;
+            background-color: transparent;
+            color: #ffffff;
+            font-family: "Segoe UI";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 38px;
+            text-transform: uppercase; }
+            .products__items__item__up__show button .fas {
+              color: #f6303e;
+              margin-right: 5px; }
+            .products__items__item__up__show button:hover {
+              background-color: #f6303e;
+              border: 1px solid #f6303e; }
+            .products__items__item__up__show button:hover .fas {
+              color: #ffffff; }
+            .products__items__item__up__show button:first-child {
+              margin-bottom: 19px; }
+          .products__items__item__up__show .old-prise {
+            left: 14px;
+            top: 264px;
+            width: 100%;
+            text-align: left;
+            border: 0;
+            height: 19px;
+            color: #ffffff;
+            font-family: "DIN Pro";
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 38px;
+            text-decoration: none; }
+          .products__items__item__up__show .new-prise {
+            left: 14px;
+            top: 236px;
+            width: 100%;
+            text-align: left;
+            border: 0;
+            color: #f6303e;
+            font-family: "DIN Pro";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 38px;
+            text-decoration: line-through; }
+        .products__items__item__up:hover .products__items__item__up__show {
+          display: flex; }
+      .products__items__item__down {
+        width: 255px;
+        text-align: left;
+        padding-top: 50px; }
+        .products__items__item__down h4 {
+          margin: 0;
+          font-family: "DIN Pro";
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22px; }
+          .products__items__item__down h4:hover {
+            color: #dc2f2f;
+            cursor: pointer; }
+        .products__items__item__down p {
+          margin: 0;
+          margin-top: 16px;
+          color: #8da5ba;
+          font-family: "Segoe UI - Semilight";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px; }
+
+.contact {
+  margin-top: 95px;
+  width: 950px;
+  height: 554px;
+  margin: 0 auto;
+  text-align: center; }
+  .contact__form {
+    margin-top: 95px;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+    background-image: linear-gradient(-40deg, #dcdcdc 0%, #fbfbfb 100%); }
+    .contact__form__title h3 {
+      margin: 40px 0;
+      color: #202945;
+      font-family: "DIN Pro";
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 38px; }
+    .contact__form input {
+      width: 330px;
+      height: 40px;
+      border: 1px solid #b0bec1;
+      padding-left: 20px;
+      outline: none;
+      color: #717274;
+      font-family: "Segoe UI";
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 38px;
+      outline: 0; }
+    .contact__form textarea {
+      width: 710px;
+      padding-left: 20px;
+      padding-top: 5px;
+      height: 40px;
+      border: 1px solid #b0bec1;
+      outline: 0;
+      color: #717274;
+      font-family: "Segoe UI";
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 38px; }
+    .contact__form__line1 {
+      display: flex;
+      justify-content: space-around;
+      max-width: 764px;
+      margin: 0 auto; }
+    .contact__form__line2 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 25px;
+      max-width: 764px;
+      margin: 25px auto 0 auto; }
+    .contact__form__line3 {
+      display: flex;
+      justify-content: space-around;
+      max-width: 764px;
+      margin: 25px auto 0 auto; }
+    .contact__form__line4 {
+      margin: 25px auto 0 auto; }
+    .contact__form__line5 {
+      margin: 60px auto 0 auto; }
+      .contact__form__line5 input {
+        width: 150px;
+        height: 48px;
+        background-color: #f6303e;
+        border: 0;
+        padding: 0;
+        color: #ffffff;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 38px;
+        text-transform: uppercase; }
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 1143px;
+  margin: 240px auto 0 auto; }
+  .footer__copyright span {
+    color: #ca1919;
+    font-family: "Segoe UI - Semilight";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "© 2017 Bar" */
+    letter-spacing: 0.28px; }
+  .footer__we {
+    display: flex;
+    align-items: center; }
+    .footer__we span {
+      color: #3f5b69;
+      font-family: "Segoe UI";
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px; }
+      .footer__we span b {
+        font-weight: 700;
+        text-transform: uppercase; }
+    .footer__we img {
+      margin-left: 20px; }
+  .footer__btnUp {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 12px 21px rgba(155, 169, 179, 0.29);
+    background-color: #ffffff;
+    border: 0;
+    top: -239px;
+    right: 0px;
+    cursor: pointer; }

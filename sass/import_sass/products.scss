@@ -1,0 +1,153 @@
+.products {
+	text-align: center;
+	&__title {
+		h3 {
+			font-family: "DIN Pro";
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 22px;
+			text-transform: uppercase;
+			margin-bottom: 23px;
+		}
+		a {
+			display: block;
+			color: #d60202;
+			font-family: "Proxima Nova T - Thin";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 22px;
+			text-decoration: none;
+			img {
+				margin-left: 5px;
+			}
+		}
+	}
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		flex-wrap: wrap;
+		&__item {
+			margin-bottom: 20px;
+			&__up {
+				position: relative;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			//border: 1px solid #8D7272;
+    			width: 255px;
+    			height: 315px;
+    			span {
+    				z-index: 300;
+    				position: absolute;
+    				top: 15px;
+    				right: 15px;
+    				width: 38px;
+					height: 18px;
+					border: 1px solid #d60202;
+					color: #d60202;
+					font-family: "Segoe UI";
+					font-size: 10px;
+					font-weight: 300;
+					line-height: 17px;
+					text-transform: uppercase;
+    			}
+    			&__show {
+    				display: none;
+    				position: absolute;
+    				width: 100%;
+    				height: 100%;
+    				background-color: rgba(33, 33, 33, 0.9);
+    				//display: flex;
+    				flex-direction: column;
+				    align-items: center;
+				    justify-content: center;
+				    button {
+				    	cursor: pointer;
+				    	width: 160px;
+						height: 48px;
+						border: 1px solid #ffffff;
+						background-color: transparent;
+						color: #ffffff;
+						font-family: "Segoe UI";
+						font-size: 14px;
+						font-weight: 400;
+						line-height: 38px;
+						text-transform: uppercase;
+						.fas {
+							color: #f6303e;
+							margin-right: 5px;
+
+						}
+						&:hover {
+							background-color: #f6303e;
+							border: 1px solid #f6303e;
+						}
+						&:hover .fas {
+							color: #ffffff;
+						}
+						&:first-child {
+							margin-bottom: 19px;
+						}
+				    }
+				    .old-prise {
+				    	left: 14px;
+    					top: 264px;
+    					width: 100%;
+    					text-align: left;
+    					border: 0;
+						height: 19px;
+						color: #ffffff;
+						font-family: "DIN Pro";
+						font-size: 20px;
+						font-weight: 500;
+						line-height: 38px;
+						text-decoration: none;
+				    }
+				    .new-prise {
+				    	left: 14px;
+    					top: 236px;
+    					width: 100%;
+    					text-align: left;
+    					border: 0;
+    					color: #f6303e;
+						font-family: "DIN Pro";
+						font-size: 16px;
+						font-weight: 500;
+						line-height: 38px;
+						text-decoration: line-through;
+				    }
+    			}
+    			&:hover .products__items__item__up__show {
+					display: flex;
+    			}
+			}
+			&__down {
+				//border: 1px solid #8D7272;
+    			width: 255px;
+    			text-align: left;
+    			padding-top: 50px;
+    			h4 {
+    				margin: 0;
+    				font-family: "DIN Pro";
+					font-size: 16px;
+					font-weight: 700;
+					line-height: 22px;
+					&:hover {
+						color: #dc2f2f;
+						cursor: pointer; 
+					}
+    			}
+    			p {
+    				margin: 0;
+    				margin-top: 16px;
+    				color: #8da5ba;
+					font-family: "Segoe UI - Semilight";
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 22px;
+    			}
+			}
+		}
+	}
+}

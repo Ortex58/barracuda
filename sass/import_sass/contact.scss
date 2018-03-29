@@ -1,0 +1,88 @@
+.contact {
+	margin-top: 95px;
+	width: 950px;
+	height: 554px;
+	margin: 0 auto;
+	text-align: center;
+	&__form {
+		margin-top: 95px;
+    	display: table;
+		width: 100%;
+		height: 100%;
+		background-color: #f6f6f6;
+		background-image: linear-gradient(-40deg, #dcdcdc 0%, #fbfbfb 100%);
+		&__title h3 {
+			margin: 40px 0;
+			color: #202945;
+			font-family: "DIN Pro";
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 38px;
+		}
+		input {
+				width: 330px;
+				height: 40px;
+				border: 1px solid #b0bec1;
+			    padding-left: 20px;
+			    outline: none;
+			    color: #717274;
+				font-family: "Segoe UI";
+				font-size: 16px;
+				font-weight: 300;
+				line-height: 38px;
+				outline: 0;
+			}
+		textarea {
+			width: 710px;
+			padding-left: 20px;
+			padding-top: 5px;
+			height: 40px;
+			border: 1px solid #b0bec1;
+			outline: 0;
+			color: #717274;
+			font-family: "Segoe UI";
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 38px;
+		}
+		&__line1 {
+			display: flex;
+			justify-content: space-around;
+			max-width: 764px;
+			margin: 0 auto;
+		}
+		&__line2 {
+			display: flex;
+			justify-content: space-around;
+			margin-top: 25px;
+			max-width: 764px;
+			margin: 25px auto 0 auto;
+		}
+		&__line3 {
+			display: flex;
+			justify-content: space-around;
+			max-width: 764px;
+			margin: 25px auto 0 auto;
+		}
+		&__line4 {
+			
+			margin: 25px auto 0 auto;
+		}
+		&__line5 {
+			margin: 60px auto 0 auto;
+			input {
+				width: 150px;
+				height: 48px;
+				background-color: #f6303e;
+				border: 0;
+				padding: 0;
+				color: #ffffff;
+				font-family: "Segoe UI";
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 38px;
+				text-transform: uppercase;
+			}
+		}
+	}				
+}
