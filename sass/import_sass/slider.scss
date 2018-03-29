@@ -1,8 +1,22 @@
+.sliderSection {
+  display: flex;
+  justify-content: center;
+  background-color: #827575;
+  max-width: 1145px;
+  margin: 0 auto;
+}
 .slider {
+  margin-top: 110px;
+  background-color: #684A4A;
+  width: 100%;
+  max-width: 935px;
   &__slide {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: #C2A3D2;
+    width: 100%;
     &__text {
+      margin-right: 133px;
       h3 {
         color: #f6303e;
         font-family: "DIN Pro";
@@ -14,6 +28,7 @@
         letter-spacing: 0.72px;
         }
         p {
+          margin: 0;
           width: 329px;
           color: #8da5ba;
           font-family: "Segoe UI - Semilight";
@@ -24,6 +39,9 @@
           letter-spacing: 0.28px;
         }
         button {
+          margin-top: 58px;
+          border: 0;
+          padding: 0;
           width: 180px;
           height: 60px;
           background-color: #f6303e;
@@ -47,8 +65,21 @@
       height: 392px;
       img {
         width: 100%;
-
         position: absolute;
+         z-index: 100;
+      }
+      img:nth-child(2) {
+        z-index: 2;
+        right: -103px;
+        top: -15px;
+      }
+      img:nth-child(3) {
+        z-index: 2;
+        right: -61px;
+        top: 118px;
+      }
+      &--heigth {
+        height: 100%;
       }
     }
   }
