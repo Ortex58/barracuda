@@ -1,19 +1,137 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto|Ubuntu:400,500");
 @font-face {
-  font-family: Proxima Nova;
-  src: url("../font/Proxima Nova.ttf"); }
+  font-family: "Segoe UI - Semilight";
+  src: url("../font/segoeuisl.ttf"); }
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("../font/DINPro-Regular.ttf"); }
+
+ul {
+  padding: 0; }
+
+.shape {
+  background: url(../img/shape.png) no-repeat;
+  background-size: cover;
+  width: 1400px;
+  height: 761px;
+  z-index: -1;
+  position: absolute; }
 
 .main-wrapper {
   max-width: 1400px;
   margin: 0 auto; }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   max-width: 1145px;
-  margin: 0 auto;
-  min-height: 80px; }
-  .header__nav__nav1 ul li a .fa-search {
-    color: #d60202;
-    border-bottom: transparent; }
-  .header__nav__nav1 ul li a .select-phone {
-    position: relative;
-    border: none; }
+  margin: 18px auto 0 auto;
+  min-height: 68px; }
+  .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 79px; }
+    .header__nav__nav1 ul {
+      margin: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style-type: none;
+      min-width: 335px;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .header__nav__nav1 ul li a {
+        color: #717274;
+        font-family: "Segoe UI - Semilight";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.26px;
+        text-decoration: none; }
+        .header__nav__nav1 ul li a img {
+          margin-right: 10px; }
+        .header__nav__nav1 ul li a .fa-search {
+          color: #d60202;
+          border-bottom: transparent; }
+    .header__nav__nav2 ul {
+      margin: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style-type: none;
+      width: 100%;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .header__nav__nav2 ul li {
+        margin-right: 34px; }
+        .header__nav__nav2 ul li a {
+          color: #3a2020;
+          font-family: "DIN Pro";
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 22px;
+          text-transform: uppercase;
+          letter-spacing: 0.28px;
+          text-decoration: none; }
+        .header__nav__nav2 ul li img {
+          margin: 3px 5px; }
+        .header__nav__nav2 ul li:last-child {
+          width: 95px;
+          height: 36px;
+          margin-right: 0; }
+          .header__nav__nav2 ul li:last-child a {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-color: #f6f6f6;
+            padding: 12px 0 12px 15px;
+            color: #717274;
+            font-family: "Segoe UI - Semilight";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 22px;
+            text-transform: none;
+            letter-spacing: 0.24px; }
+            .header__nav__nav2 ul li:last-child a img {
+              margin: 3px 5px; }
+
+/*.cart {
+	width: 95px;
+	height: 36px;
+	background-color: #f6f6f6;
+	a {
+		padding: 10px;
+		color: #717274;
+		font-family: "Segoe UI - Semilight";
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 22px;
+		letter-spacing: 0.24px;
+	}
+}*/

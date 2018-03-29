@@ -1,33 +1,110 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu:400,500');
 @font-face {
-    font-family: Proxima Nova;
-    src: url('../font/Proxima Nova.ttf');
+    font-family: "Segoe UI - Semilight";
+    src: url('../font/segoeuisl.ttf');
 }
-
-
+@font-face {
+    font-family: "DIN Pro";
+    src: url('../font/DINPro-Regular.ttf');
+}
+ul {
+	padding: 0;
+}
+.shape {
+	background: url(../img/shape.png) no-repeat;
+    background-size: cover;
+	width: 1400px;
+	height: 761px;
+	z-index: -1;
+	position: absolute;
+}
 .main-wrapper {
 	max-width: 1400px;
 	margin: 0 auto;
 }
 .header {
+	display: flex;
+	justify-content: space-between;
 	max-width: 1145px;
-	margin: 0 auto;
-	min-height: 80px;
+	margin: 18px auto 0 auto;
+	min-height: 68px;
 	&__nav {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		justify-content: space-between;
+		height: 79px;
 		&__nav1 {
 			ul {
+				margin: 0;
+				display: flex;
+				list-style-type: none;
+				min-width: 335px;
+				justify-content: space-between;
+				align-items: center;
 				li {
 					a {
+						color: #717274;
+						font-family: "Segoe UI - Semilight";
+						font-size: 14px;
+						font-weight: 500;
+						line-height: 22px;
+						letter-spacing: 0.26px;
+						text-decoration: none;
+						img {
+							margin-right: 10px;
+						}
 						.fa-search {
 							color: #d60202;
 							border-bottom: transparent;
 						}
-						
-						//border-bottom: 1px dashed #717274;
-						.select-phone {
-							position: relative;
-							border: none;
+					}
+				}
+			}
+		}
+		&__nav2 {
+			ul {
+				margin: 0;
+				display: flex;
+				list-style-type: none;
+				//max-width: 605px;
+				width: 100%;
+				justify-content: space-between;
+				align-items: center;
+				li {
+					margin-right: 34px;
+					a {
+						color: #3a2020;
+						font-family: "DIN Pro";
+						font-size: 14px;
+						font-weight: 700;
+						line-height: 22px;
+						text-transform: uppercase;
+						letter-spacing: 0.28px;
+						text-decoration: none;
+					}
+					img {
+						margin: 3px 5px;
+					}
+					&:last-child {
+						width: 95px;
+						height: 36px;
+						margin-right: 0;
+						a {
+							display: flex;
+    						align-items: center;
+							background-color: #f6f6f6;
+							padding: 12px 0 12px 15px;
+							color: #717274;
+							font-family: "Segoe UI - Semilight";
+							font-size: 12px;
+							font-weight: 400;
+							line-height: 22px;
+							text-transform: none;
+							letter-spacing: 0.24px;
+							img {
+								margin: 3px 5px;
+							}
 						}
 					}
 				}
@@ -35,3 +112,17 @@
 		}
 	}
 }
+/*.cart {
+	width: 95px;
+	height: 36px;
+	background-color: #f6f6f6;
+	a {
+		padding: 10px;
+		color: #717274;
+		font-family: "Segoe UI - Semilight";
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 22px;
+		letter-spacing: 0.24px;
+	}
+}*/
