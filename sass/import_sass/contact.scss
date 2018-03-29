@@ -18,6 +18,9 @@
 			font-size: 30px;
 			font-weight: 700;
 			line-height: 38px;
+			&:last-child {
+				display: none;
+			}
 		}
 		input {
 				width: 330px;

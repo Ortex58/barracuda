@@ -26,7 +26,8 @@
 		display: flex;
 		justify-content: space-between;
 		margin-top: 50px;
-		flex-wrap: wrap;
+		flex-direction: row;
+		//flex-wrap: wrap;
 		&__item {
 			margin-bottom: 20px;
 			&__up {

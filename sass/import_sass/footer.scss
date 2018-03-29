@@ -2,8 +2,8 @@
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	width: 1143px;
-	margin: 240px auto 0 auto;
+	//width: 1143px;
+	margin: 240px auto 28px auto;
 	&__copyright {
 		span {
 			color: #ca1919;
@@ -43,5 +43,6 @@
 	    top: -239px;
     	right: 0px;
 		cursor: pointer;
+		outline: none;
 	}
 }

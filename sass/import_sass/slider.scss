@@ -1,19 +1,19 @@
 .sliderSection {
   display: flex;
   justify-content: center;
-  background-color: #827575;
+  //background-color: #827575;
   max-width: 1145px;
   margin: 0 auto;
 }
 .slider {
   margin-top: 110px;
-  background-color: #684A4A;
+  //background-color: #684A4A;
   width: 100%;
-  max-width: 935px;
+ // max-width: 935px;
   &__slide {
     display: flex;
     justify-content: center;
-    background-color: #C2A3D2;
+    //background-color: #C2A3D2;
     width: 100%;
     &__text {
       margin-right: 133px;
@@ -62,7 +62,7 @@
       justify-content: center;
       align-items: center;
       width: 268px;
-      height: 392px;
+      height: 458px;
       img {
         width: 100%;
         position: absolute;

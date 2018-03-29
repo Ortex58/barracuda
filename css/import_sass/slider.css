@@ -1,28 +1,16 @@
 @charset "UTF-8";
 .sliderSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  background-color: #827575;
   max-width: 1145px;
   margin: 0 auto; }
 
 .slider {
   margin-top: 110px;
-  background-color: #684A4A;
-  width: 100%;
-  max-width: 935px; }
+  width: 100%; }
   .slider__slide {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    background-color: #C2A3D2;
     width: 100%; }
     .slider__slide__text {
       margin-right: 133px; }
@@ -63,17 +51,11 @@
         letter-spacing: 0.28px; }
     .slider__slide__img {
       position: relative;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
       justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
       align-items: center;
       width: 268px;
-      height: 392px; }
+      height: 458px; }
       .slider__slide__img img {
         width: 100%;
         position: absolute;

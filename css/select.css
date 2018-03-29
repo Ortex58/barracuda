@@ -6,7 +6,7 @@
 .selectdiv:after {
     content: url(../img/flags/wy.png);
     right: -2px;
-    top: -5px;
+    top: -3px;
     position: absolute;
     pointer-events: none;
 
@@ -17,6 +17,7 @@ display: none;
 }
 
 .selectdiv select {
+  cursor: pointer;
   padding: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -24,7 +25,7 @@ display: none;
   border: none;
   display: block;
   width: 112px;
-  height: 13px;
+  height: 15px;
   float: right;
   -ms-word-break: normal;
   word-break: normal;

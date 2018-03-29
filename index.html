@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Barracuda</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/select.css">
@@ -18,19 +19,34 @@
 				<img src="img/barracuda_logo.png" alt="barracuda_logo">
 			</div>
 			<nav class="header__nav">
+				<div class="header__nav__xs">
+					<ul>
+						<li><a href="#"><img src="img/search-xs.png" alt="search-xs"></a></li>
+						<li><a href="#"><img src="img/cart-xs.png" alt="cart-xs"></a></li>
+						<li>
+							<div class="header__menu__btn">
+								<div class="sandwich">
+									<div class="sw-topper"></div>
+								  <div class="sw-bottom"></div>
+								  <div class="sw-footer"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
 				<div class="header__nav__nav1">
 					<ul>
 						<li><a href="#"><i class="fas fa-search"></i></a></li>
-						<li><a href="#"><div class="selectdiv">
+						<li><div class="selectdiv">
 											<label>
 											    <select>
 											        <option selected>+38 063 154 35 56</option>
 											        <option>+38 063 454 56 12</option>
 											    </select>
 											</label>
-											</div></a></li>
+											</div></li>
 						<li><a href="#"><img src="img/profile.png" alt="profile">  Мій кабінет</a></li>
-						<li><a href="#"><img src="img/worldwide.png" alt="worldwide"> 
+						<li><img src="img/worldwide.png" alt="worldwide"> 
 						<div class="lang">
 							<label>
 							    <select class="lang">
@@ -39,7 +55,7 @@
 							    </select>
 							</label>
 							</div>
-						</a></li>
+						</li>
 					</ul>
 				</div>
 				<div class="header__nav__nav2">
@@ -83,8 +99,7 @@
 			        	</div>
 				        <div class="slider__slide__img">
 				        	<img src="img/0_18_w.png" alt="ajax1">
-				        	<!-- <img src="img/shadow.png" alt="shadow">
-				        	<img src="img/shadow2.png" alt="shadow"> -->
+
 				        </div>
 					</div>
 		    </div>  
@@ -98,8 +113,7 @@
 			        	</div>
 				        <div class="slider__slide__img">
 				        	<img src="img/0_18(1)-1000x1000.png" alt="ajax1" class="slider__slide__img--heigth">
-				        	<!-- <img src="img/shadow.png" alt="shadow">
-				        	<img src="img/shadow2.png" alt="shadow"> -->
+
 				        </div>
 					</div>
 		    </div> 
@@ -128,8 +142,7 @@
 			        	</div>
 				        <div class="slider__slide__img">
 				        	<img src="img/0_18_w.png" alt="ajax1">
-				        	<!-- <img src="img/shadow.png" alt="shadow">
-				        	<img src="img/shadow2.png" alt="shadow"> -->
+
 				        </div>
 					</div>
 		    </div>  
@@ -143,8 +156,7 @@
 			        	</div>
 				        <div class="slider__slide__img">
 				        	<img src="img/0_18(1)-1000x1000.png" alt="ajax1" class="slider__slide__img--heigth">
-				        	<!-- <img src="img/shadow.png" alt="shadow">
-				        	<img src="img/shadow2.png" alt="shadow"> -->
+
 				        </div>
 					</div>
 		    </div> 
@@ -152,6 +164,7 @@
     	</div>
 		</section>
 		
+		<!-- Section Products -->
 		<section class="products">
 			<div class="products__title">
 				<h3>товари</h3>
@@ -229,14 +242,15 @@
 			</div>
 
 
-		</section>
+		</section> 
 
 		<!-- Section form -->
 		
 		<section class="contact">
-			<form action="" class="contact__form">
+			<form action="#" class="contact__form">
 				<div class="contact__form__title">
-					<h3>Форма реєстрації</h3>	
+					<h3>Форма реєстрації</h3>
+					<h3>Зворотній зв’язок</h3>
 				</div>
 				
 				<div class="contact__form__line1">
@@ -256,7 +270,7 @@
 						    </select>
 						</label>
 					</div>
-					<input type="datetime" placeholder="Дата">
+					<input type="text" placeholder="Дата">
 				</div>
 				<div class="contact__form__line4">
 					<textarea  cols="30" rows="1" placeholder="Повідомлення"></textarea>
@@ -267,7 +281,7 @@
 			</form>
 		</section>
 
-		<!-- Section Footer -->
+		<!-- Section Footer-->
 
 		<footer class="footer">
 			<button class="footer__btnUp"><img src="img/right-arrow.png" alt="up-arrow"></button>
@@ -279,7 +293,7 @@
 				<img src="img/otakoyi.png" alt="otakoyi">
 
 			</div>
-		</footer>
+		</footer> 
 
 	</div>
 
