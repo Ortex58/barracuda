@@ -10,7 +10,7 @@
   .products__title a {
     display: block;
     color: #d60202;
-    font-family: "Proxima Nova T - Thin";
+    font-family: "Proxima Nova T - Thin",Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
@@ -40,7 +40,7 @@
           height: 18px;
           border: 1px solid #d60202;
           color: #d60202;
-          font-family: "Segoe UI";
+          font-family: "Segoe UI",Helvetica,Arial,sans-serif;
           font-size: 10px;
           font-weight: 300;
           line-height: 17px;
@@ -61,7 +61,7 @@
             border: 1px solid #ffffff;
             background-color: transparent;
             color: #ffffff;
-            font-family: "Segoe UI";
+            font-family: "Segoe UI",Helvetica,Arial,sans-serif;
             font-size: 14px;
             font-weight: 400;
             line-height: 38px;
@@ -84,7 +84,7 @@
             border: 0;
             height: 19px;
             color: #ffffff;
-            font-family: "DIN Pro";
+            font-family: "DIN Pro",Helvetica,Arial,sans-serif;
             font-size: 20px;
             font-weight: 500;
             line-height: 38px;
@@ -96,7 +96,7 @@
             text-align: left;
             border: 0;
             color: #f6303e;
-            font-family: "DIN Pro";
+            font-family: "DIN Pro",Helvetica,Arial,sans-serif;
             font-size: 16px;
             font-weight: 500;
             line-height: 38px;
@@ -120,7 +120,7 @@
           margin: 0;
           margin-top: 16px;
           color: #8da5ba;
-          font-family: "Segoe UI - Semilight";
+          font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
           font-size: 14px;
           font-weight: 400;
           line-height: 22px; }

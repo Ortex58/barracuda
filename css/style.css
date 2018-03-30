@@ -7,6 +7,10 @@
   font-family: "DIN Pro";
   src: url("../font/DINPro-Regular.ttf"); }
 
+@font-face {
+  font-family: "Proxima Nova T - Thin";
+  src: url("../font/ProximaNovaT-Thin.ttf"); }
+
 ul {
   padding: 0; }
 
@@ -47,7 +51,7 @@ ul {
       align-items: center; }
       .header__nav__nav1 ul li a {
         color: #717274;
-        font-family: "Segoe UI - Semilight";
+        font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight: 500;
         line-height: 22px;
@@ -114,7 +118,7 @@ ul {
       margin-right: 133px; }
       .slider__slide__text h3 {
         color: #f6303e;
-        font-family: "DIN Pro";
+        font-family: "DIN Pro",Helvetica,Arial,sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 52px;
@@ -125,7 +129,7 @@ ul {
         margin: 0;
         width: 329px;
         color: #8da5ba;
-        font-family: "Segoe UI - Semilight";
+        font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 26px;
@@ -141,7 +145,7 @@ ul {
         background-color: #f6303e;
         background-image: linear-gradient(45deg, #1b1b1b 0%, #453f3f 100%);
         color: #ffffff;
-        font-family: "DIN Pro";
+        font-family: "DIN Pro",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight: 500;
         line-height: 24px;
@@ -195,7 +199,7 @@ ul {
   .products__title a {
     display: block;
     color: #d60202;
-    font-family: "Proxima Nova T - Thin";
+    font-family: "Proxima Nova T - Thin",Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
@@ -225,7 +229,7 @@ ul {
           height: 18px;
           border: 1px solid #d60202;
           color: #d60202;
-          font-family: "Segoe UI";
+          font-family: "Segoe UI",Helvetica,Arial,sans-serif;
           font-size: 10px;
           font-weight: 300;
           line-height: 17px;
@@ -246,7 +250,7 @@ ul {
             border: 1px solid #ffffff;
             background-color: transparent;
             color: #ffffff;
-            font-family: "Segoe UI";
+            font-family: "Segoe UI",Helvetica,Arial,sans-serif;
             font-size: 14px;
             font-weight: 400;
             line-height: 38px;
@@ -269,7 +273,7 @@ ul {
             border: 0;
             height: 19px;
             color: #ffffff;
-            font-family: "DIN Pro";
+            font-family: "DIN Pro",Helvetica,Arial,sans-serif;
             font-size: 20px;
             font-weight: 500;
             line-height: 38px;
@@ -281,7 +285,7 @@ ul {
             text-align: left;
             border: 0;
             color: #f6303e;
-            font-family: "DIN Pro";
+            font-family: "DIN Pro",Helvetica,Arial,sans-serif;
             font-size: 16px;
             font-weight: 500;
             line-height: 38px;
@@ -305,7 +309,7 @@ ul {
           margin: 0;
           margin-top: 16px;
           color: #8da5ba;
-          font-family: "Segoe UI - Semilight";
+          font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
           font-size: 14px;
           font-weight: 400;
           line-height: 22px; }
@@ -326,7 +330,7 @@ ul {
     .contact__form__title h3 {
       margin: 40px 0;
       color: #202945;
-      font-family: "DIN Pro";
+      font-family: "DIN Pro",Helvetica,Arial,sans-serif;
       font-size: 30px;
       font-weight: 700;
       line-height: 38px; }
@@ -339,7 +343,7 @@ ul {
       padding-left: 20px;
       outline: none;
       color: #717274;
-      font-family: "Segoe UI";
+      font-family: "Segoe UI",Helvetica,Arial,sans-serif;
       font-size: 16px;
       font-weight: 300;
       line-height: 38px;
@@ -354,7 +358,7 @@ ul {
       border: 1px solid #b0bec1;
       outline: 0;
       color: #717274;
-      font-family: "Segoe UI";
+      font-family: "Segoe UI",Helvetica,Arial,sans-serif;
       font-size: 16px;
       font-weight: 300;
       line-height: 38px; }
@@ -385,7 +389,7 @@ ul {
         border: 0;
         padding: 0;
         color: #ffffff;
-        font-family: "Segoe UI";
+        font-family: "Segoe UI",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 38px;
@@ -398,18 +402,17 @@ ul {
   margin: 240px auto 28px auto; }
   .footer__copyright span {
     color: #ca1919;
-    font-family: "Segoe UI - Semilight";
+    font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    /* Text style for "© 2017 Bar" */
     letter-spacing: 0.28px; }
   .footer__we {
     display: flex;
     align-items: center; }
     .footer__we span {
       color: #3f5b69;
-      font-family: "Segoe UI";
+      font-family: "Segoe UI",Helvetica,Arial,sans-serif;
       font-size: 14px;
       font-weight: 300;
       line-height: 22px; }

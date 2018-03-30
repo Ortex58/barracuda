@@ -6,6 +6,10 @@
   font-family: "DIN Pro";
   src: url("../font/DINPro-Regular.ttf"); }
 
+@font-face {
+  font-family: "Proxima Nova T - Thin";
+  src: url("../font/ProximaNovaT-Thin.ttf"); }
+
 ul {
   padding: 0; }
 
@@ -46,7 +50,7 @@ ul {
       align-items: center; }
       .header__nav__nav1 ul li a {
         color: #717274;
-        font-family: "Segoe UI - Semilight";
+        font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight: 500;
         line-height: 22px;

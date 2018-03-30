@@ -7,11 +7,10 @@
 	&__copyright {
 		span {
 			color: #ca1919;
-			font-family: "Segoe UI - Semilight";
+			font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
 			font-size: 14px;
 			font-weight: 400;
 			line-height: 24px;
-			/* Text style for "© 2017 Bar" */
 			letter-spacing: 0.28px;
 			}
 	}
@@ -20,7 +19,7 @@
 		align-items: center;
 		span {
 			color: #3f5b69;
-			font-family: "Segoe UI";
+			font-family: "Segoe UI",Helvetica,Arial,sans-serif;
 			font-size: 14px;
 			font-weight: 300;
 			line-height: 22px;
