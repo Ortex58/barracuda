@@ -34,6 +34,7 @@
         /* Text style for "П, рацює н" */
         letter-spacing: 0.28px; }
       .slider__slide__text button {
+        cursor: pointer;
         margin-top: 58px;
         border: 0;
         padding: 0;
@@ -47,8 +48,19 @@
         font-weight: 500;
         line-height: 24px;
         text-transform: uppercase;
-        /* Text style for "д, етальні" */
-        letter-spacing: 0.28px; }
+        letter-spacing: 0.28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: width 0.5s;
+        transition-delay: 0.5s; }
+        .slider__slide__text button img {
+          margin-left: 10px; }
+        .slider__slide__text button:hover {
+          background-image: linear-gradient(45deg, #e47676 0%, #ce1919 100%);
+          transition: width 0.5s;
+          transition-delay: 0.5s;
+          width: 200px; }
     .slider__slide__img {
       position: relative;
       display: flex;

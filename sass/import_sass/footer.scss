@@ -44,5 +44,17 @@
     	right: 0px;
 		cursor: pointer;
 		outline: none;
+		 -webkit-transition: width 0.5s;
+          transition: width 0.5s;
+		&:hover {
+			background-image: linear-gradient(45deg, #1b1b1b 0%, #453f3f 100%);
+			 -webkit-transition: width 0.5s;
+          	transition: width 0.5s;
+          	transition-delay: 1s;
+		}
 	}
+}
+#datepicker {
+	background: url(../img/calendar.png) right no-repeat #fff;
+    background-position-x: 95%;
 }

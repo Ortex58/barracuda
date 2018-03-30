@@ -39,6 +39,7 @@
           letter-spacing: 0.28px;
         }
         button {
+          cursor: pointer;
           margin-top: 58px;
           border: 0;
           padding: 0;
@@ -52,8 +53,23 @@
           font-weight: 500;
           line-height: 24px;
           text-transform: uppercase;
-          /* Text style for "д, етальні" */
           letter-spacing: 0.28px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          -webkit-transition: width 0.5s;
+          transition: width 0.5s;
+          transition-delay: 0.5s;
+          img {
+            margin-left: 10px;
+          }
+          &:hover {
+            background-image: linear-gradient(45deg, #e47676 0%, #ce1919 100%);
+            -webkit-transition: width 0.5s;
+            transition: width 0.5s;
+            transition-delay: 0.5s;
+            width: 200px;
+          }
         }
     }
     &__img {

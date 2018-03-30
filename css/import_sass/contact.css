@@ -32,6 +32,8 @@
       font-weight: 300;
       line-height: 38px;
       outline: 0; }
+      .contact__form input:focus {
+        border: 1px solid #F6303E; }
     .contact__form textarea {
       width: 710px;
       padding-left: 20px;

@@ -34,6 +34,9 @@
 				font-weight: 300;
 				line-height: 38px;
 				outline: 0;
+				&:focus {
+					border: 1px solid #F6303E;
+				}
 			}
 		textarea {
 			width: 710px;
