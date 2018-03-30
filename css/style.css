@@ -383,6 +383,7 @@ ul {
     .contact__form__line5 {
       margin: 60px auto 0 auto; }
       .contact__form__line5 input {
+        cursor: pointer;
         width: 150px;
         height: 48px;
         background-color: #f6303e;
