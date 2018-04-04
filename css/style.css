@@ -7,6 +7,10 @@
   font-family: "DIN Pro";
   src: url("../font/DINPro-Regular.ttf"); }
 
+@font-face {
+  font-family: "Proxima Nova T - Thin";
+  src: url("../font/ProximaNovaT-Thin.ttf"); }
+
 ul {
   padding: 0; }
 
@@ -47,7 +51,7 @@ ul {
       align-items: center; }
       .header__nav__nav1 ul li a {
         color: #717274;
-        font-family: "Segoe UI - Semilight";
+        font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight: 500;
         line-height: 22px;
@@ -97,20 +101,6 @@ ul {
             .header__nav__nav2 ul li:last-child a img {
               margin: 3px 5px; }
 
-/*.cart {
-	width: 95px;
-	height: 36px;
-	background-color: #f6f6f6;
-	a {
-		padding: 10px;
-		color: #717274;
-		font-family: "Segoe UI - Semilight";
-		font-size: 12px;
-		font-weight: 400;
-		line-height: 22px;
-		letter-spacing: 0.24px;
-	}
-}*/
 .sliderSection {
   display: flex;
   justify-content: center;
@@ -128,7 +118,7 @@ ul {
       margin-right: 133px; }
       .slider__slide__text h3 {
         color: #f6303e;
-        font-family: "DIN Pro";
+        font-family: "DIN Pro",Helvetica,Arial,sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 52px;
@@ -139,13 +129,14 @@ ul {
         margin: 0;
         width: 329px;
         color: #8da5ba;
-        font-family: "Segoe UI - Semilight";
+        font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 26px;
         /* Text style for "П, рацює н" */
         letter-spacing: 0.28px; }
       .slider__slide__text button {
+        cursor: pointer;
         margin-top: 58px;
         border: 0;
         padding: 0;
@@ -154,13 +145,26 @@ ul {
         background-color: #f6303e;
         background-image: linear-gradient(45deg, #1b1b1b 0%, #453f3f 100%);
         color: #ffffff;
-        font-family: "DIN Pro";
+        font-family: "DIN Pro",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight: 500;
         line-height: 24px;
         text-transform: uppercase;
-        /* Text style for "д, етальні" */
-        letter-spacing: 0.28px; }
+        letter-spacing: 0.28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-transition: width 0.5s;
+        transition: width 0.5s;
+        transition-delay: 0.5s; }
+        .slider__slide__text button img {
+          margin-left: 10px; }
+        .slider__slide__text button:hover {
+          background-image: linear-gradient(45deg, #e47676 0%, #ce1919 100%);
+          -webkit-transition: width 0.5s;
+          transition: width 0.5s;
+          transition-delay: 0.5s;
+          width: 200px; }
     .slider__slide__img {
       position: relative;
       display: flex;
@@ -195,7 +199,7 @@ ul {
   .products__title a {
     display: block;
     color: #d60202;
-    font-family: "Proxima Nova T - Thin";
+    font-family: "Proxima Nova T - Thin",Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
@@ -225,7 +229,7 @@ ul {
           height: 18px;
           border: 1px solid #d60202;
           color: #d60202;
-          font-family: "Segoe UI";
+          font-family: "Segoe UI",Helvetica,Arial,sans-serif;
           font-size: 10px;
           font-weight: 300;
           line-height: 17px;
@@ -246,7 +250,7 @@ ul {
             border: 1px solid #ffffff;
             background-color: transparent;
             color: #ffffff;
-            font-family: "Segoe UI";
+            font-family: "Segoe UI",Helvetica,Arial,sans-serif;
             font-size: 14px;
             font-weight: 400;
             line-height: 38px;
@@ -269,7 +273,7 @@ ul {
             border: 0;
             height: 19px;
             color: #ffffff;
-            font-family: "DIN Pro";
+            font-family: "DIN Pro",Helvetica,Arial,sans-serif;
             font-size: 20px;
             font-weight: 500;
             line-height: 38px;
@@ -281,7 +285,7 @@ ul {
             text-align: left;
             border: 0;
             color: #f6303e;
-            font-family: "DIN Pro";
+            font-family: "DIN Pro",Helvetica,Arial,sans-serif;
             font-size: 16px;
             font-weight: 500;
             line-height: 38px;
@@ -305,7 +309,7 @@ ul {
           margin: 0;
           margin-top: 16px;
           color: #8da5ba;
-          font-family: "Segoe UI - Semilight";
+          font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
           font-size: 14px;
           font-weight: 400;
           line-height: 22px; }
@@ -326,7 +330,7 @@ ul {
     .contact__form__title h3 {
       margin: 40px 0;
       color: #202945;
-      font-family: "DIN Pro";
+      font-family: "DIN Pro",Helvetica,Arial,sans-serif;
       font-size: 30px;
       font-weight: 700;
       line-height: 38px; }
@@ -339,11 +343,13 @@ ul {
       padding-left: 20px;
       outline: none;
       color: #717274;
-      font-family: "Segoe UI";
+      font-family: "Segoe UI",Helvetica,Arial,sans-serif;
       font-size: 16px;
       font-weight: 300;
       line-height: 38px;
       outline: 0; }
+      .contact__form input:focus {
+        border: 1px solid #F6303E; }
     .contact__form textarea {
       width: 710px;
       padding-left: 20px;
@@ -352,7 +358,7 @@ ul {
       border: 1px solid #b0bec1;
       outline: 0;
       color: #717274;
-      font-family: "Segoe UI";
+      font-family: "Segoe UI",Helvetica,Arial,sans-serif;
       font-size: 16px;
       font-weight: 300;
       line-height: 38px; }
@@ -377,13 +383,14 @@ ul {
     .contact__form__line5 {
       margin: 60px auto 0 auto; }
       .contact__form__line5 input {
+        cursor: pointer;
         width: 150px;
         height: 48px;
         background-color: #f6303e;
         border: 0;
         padding: 0;
         color: #ffffff;
-        font-family: "Segoe UI";
+        font-family: "Segoe UI",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 38px;
@@ -396,18 +403,17 @@ ul {
   margin: 240px auto 28px auto; }
   .footer__copyright span {
     color: #ca1919;
-    font-family: "Segoe UI - Semilight";
+    font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    /* Text style for "© 2017 Bar" */
     letter-spacing: 0.28px; }
   .footer__we {
     display: flex;
     align-items: center; }
     .footer__we span {
       color: #3f5b69;
-      font-family: "Segoe UI";
+      font-family: "Segoe UI",Helvetica,Arial,sans-serif;
       font-size: 14px;
       font-weight: 300;
       line-height: 22px; }
@@ -426,7 +432,18 @@ ul {
     top: -239px;
     right: 0px;
     cursor: pointer;
-    outline: none; }
+    outline: none;
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s; }
+    .footer__btnUp:hover {
+      background-image: linear-gradient(45deg, #1b1b1b 0%, #453f3f 100%);
+      -webkit-transition: width 0.5s;
+      transition: width 0.5s;
+      transition-delay: 1s; }
+
+#datepicker {
+  background: url(../img/calendar.png) right no-repeat #fff;
+  background-position-x: 95%; }
 
 .sandwich {
   width: 100%;
@@ -488,6 +505,7 @@ ul {
   .header__nav {
     display: block; }
   .header__menu__btn {
+    cursor: pointer;
     position: relative;
     height: 24px;
     width: 24px;
@@ -523,6 +541,8 @@ ul {
     width: 100%;
     background-color: #f9eeef;
     border-top: 1px solid #d60202; }
+  .header__nav__nav2 ul li:hover {
+    background-color: #e07878; }
   .header__nav__nav2 ul li:nth-child(5) {
     border-bottom: 1px solid #d60202; }
   .header__nav__nav2 ul li a {

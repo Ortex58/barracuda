@@ -14,7 +14,7 @@
 		&__title h3 {
 			margin: 40px 0;
 			color: #202945;
-			font-family: "DIN Pro";
+			font-family: "DIN Pro",Helvetica,Arial,sans-serif;
 			font-size: 30px;
 			font-weight: 700;
 			line-height: 38px;
@@ -29,11 +29,14 @@
 			    padding-left: 20px;
 			    outline: none;
 			    color: #717274;
-				font-family: "Segoe UI";
+				font-family: "Segoe UI",Helvetica,Arial,sans-serif;
 				font-size: 16px;
 				font-weight: 300;
 				line-height: 38px;
 				outline: 0;
+				&:focus {
+					border: 1px solid #F6303E;
+				}
 			}
 		textarea {
 			width: 710px;
@@ -43,7 +46,7 @@
 			border: 1px solid #b0bec1;
 			outline: 0;
 			color: #717274;
-			font-family: "Segoe UI";
+			font-family: "Segoe UI",Helvetica,Arial,sans-serif;
 			font-size: 16px;
 			font-weight: 300;
 			line-height: 38px;
@@ -74,13 +77,14 @@
 		&__line5 {
 			margin: 60px auto 0 auto;
 			input {
+				cursor: pointer;
 				width: 150px;
 				height: 48px;
 				background-color: #f6303e;
 				border: 0;
 				padding: 0;
 				color: #ffffff;
-				font-family: "Segoe UI";
+				font-family: "Segoe UI",Helvetica,Arial,sans-serif;
 				font-size: 14px;
 				font-weight: 400;
 				line-height: 38px;

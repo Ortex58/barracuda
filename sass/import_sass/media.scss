@@ -4,6 +4,7 @@
         display: block;
     }
     .header__menu__btn {
+        cursor: pointer;
         position: relative;
         height: 24px;
         width: 24px;
@@ -51,6 +52,12 @@
         width: 100%;
         background-color: #f9eeef;
         border-top: 1px solid #d60202;
+        
+    }
+    .header__nav__nav2 ul li:hover {
+        
+        background-color: #e07878;
+
         
     }
     .header__nav__nav2 ul li:nth-child(5) {

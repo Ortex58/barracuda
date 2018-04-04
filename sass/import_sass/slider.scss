@@ -19,7 +19,7 @@
       margin-right: 133px;
       h3 {
         color: #f6303e;
-        font-family: "DIN Pro";
+        font-family: "DIN Pro",Helvetica,Arial,sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 52px;
@@ -31,7 +31,7 @@
           margin: 0;
           width: 329px;
           color: #8da5ba;
-          font-family: "Segoe UI - Semilight";
+          font-family: "Segoe UI - Semilight",Helvetica,Arial,sans-serif;
           font-size: 14px;
           font-weight: 400;
           line-height: 26px;
@@ -39,6 +39,7 @@
           letter-spacing: 0.28px;
         }
         button {
+          cursor: pointer;
           margin-top: 58px;
           border: 0;
           padding: 0;
@@ -47,13 +48,28 @@
           background-color: #f6303e;
           background-image: linear-gradient(45deg, #1b1b1b 0%, #453f3f 100%);
           color: #ffffff;
-          font-family: "DIN Pro";
+          font-family: "DIN Pro",Helvetica,Arial,sans-serif;
           font-size: 14px;
           font-weight: 500;
           line-height: 24px;
           text-transform: uppercase;
-          /* Text style for "д, етальні" */
           letter-spacing: 0.28px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          -webkit-transition: width 0.5s;
+          transition: width 0.5s;
+          transition-delay: 0.5s;
+          img {
+            margin-left: 10px;
+          }
+          &:hover {
+            background-image: linear-gradient(45deg, #e47676 0%, #ce1919 100%);
+            -webkit-transition: width 0.5s;
+            transition: width 0.5s;
+            transition-delay: 0.5s;
+            width: 200px;
+          }
         }
     }
     &__img {
