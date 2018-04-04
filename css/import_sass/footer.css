@@ -1,7 +1,11 @@
 @charset "UTF-8";
 .footer {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 240px auto 28px auto; }
   .footer__copyright span {
@@ -13,7 +17,11 @@
     /* Text style for "© 2017 Bar" */
     letter-spacing: 0.28px; }
   .footer__we {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
     .footer__we span {
       color: #3f5b69;
@@ -30,6 +38,7 @@
     position: absolute;
     width: 48px;
     height: 48px;
+    -webkit-box-shadow: 0 12px 21px rgba(155, 169, 179, 0.29);
     box-shadow: 0 12px 21px rgba(155, 169, 179, 0.29);
     background-color: #ffffff;
     border: 0;
