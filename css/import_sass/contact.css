@@ -47,27 +47,18 @@
       font-weight: 300;
       line-height: 38px; }
     .contact__form__line1 {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       max-width: 764px;
       margin: 0 auto; }
     .contact__form__line2 {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin-top: 25px;
       max-width: 764px;
       margin: 25px auto 0 auto; }
     .contact__form__line3 {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       max-width: 764px;
       margin: 25px auto 0 auto; }

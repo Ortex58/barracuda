@@ -19,8 +19,6 @@
     display: block; }
     .header__nav__xs ul {
       list-style-type: none;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex; }
       .header__nav__xs ul li {
         margin-right: 20px; }
@@ -31,9 +29,6 @@
     top: 70px;
     left: 50%;
     min-width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     -webkit-transform: translate(-50%);
     transform: translate(-50%); }
@@ -56,14 +51,10 @@
   .header__logo {
     display: none; }
   .header {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
     justify-content: flex-end; } }
 
 @media (max-width: 752px) {
   .slider__slide {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center; }
   .slider__slide__text h3 {
     font-size: 30px;
@@ -88,21 +79,11 @@
 
 @media (max-width: 570px) {
   .slider__slide {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column; }
   .slider__slide__text {
     margin-right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center; }
   .slider__slide__text h3 {
     text-align: center; }
@@ -130,12 +111,7 @@
   .contact__form__title h3:first-child {
     display: none; }
   .contact__form__line1 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center; }
   .contact__form__line2 input:last-child, .selectForm {
     display: none; }
@@ -152,12 +128,7 @@
 
 @media (max-width: 570px) {
   .footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     margin: 134px auto 28px auto; }
   .footer__btnUp {

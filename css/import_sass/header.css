@@ -28,44 +28,25 @@ ul {
   position: relative; }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1145px;
   margin: 18px auto 0 auto;
   min-height: 68px; }
   .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
     align-items: flex-end;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     height: 79px; }
     .header__nav__xs {
       display: none; }
     .header__nav__nav1 ul {
       margin: 0;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       list-style-type: none;
       min-width: 335px;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
       justify-content: space-between;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
       align-items: center; }
       .header__nav__nav1 ul li a {
         color: #717274;
@@ -82,16 +63,10 @@ ul {
           border-bottom: transparent; }
     .header__nav__nav2 ul {
       margin: 0;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       list-style-type: none;
       width: 100%;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
       justify-content: space-between;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
       align-items: center; }
       .header__nav__nav2 ul li {
         margin-right: 34px; }
@@ -111,11 +86,7 @@ ul {
           height: 36px;
           margin-right: 0; }
           .header__nav__nav2 ul li:last-child a {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
             align-items: center;
             background-color: #f6f6f6;
             padding: 12px 0 12px 15px;
