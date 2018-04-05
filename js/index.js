@@ -23,12 +23,16 @@ $(document).ready(function() {
         $('body,html').animate({ scrollTop: 0 }, 'slow');
     });
 	
-	//Icon btn-up animate
-
-		$(".footer__btnUp ").hover(function(){
-		    $(".footer__btnUp").addClass('animated bounce');
-		});
 		
+    //btn-top animate
+        $(window).scroll(function() {
+        if ($(this).scrollTop() > $(this).height()) {
+            $('.footer__btnUp').addClass('to__top--active');
+        }else {
+            $('.footer__btnUp').removeClass('to__top--active');
+        }
+    });
+
 	//Calendar
 	
 	$(function(){

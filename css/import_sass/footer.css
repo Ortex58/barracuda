@@ -35,7 +35,7 @@
     right: 0px;
     cursor: pointer;
     outline: none;
-    transition: width 0.5s; }
+    transition: right 1s; }
     .footer__btnUp:hover {
       background-image: linear-gradient(45deg, #1b1b1b 0%, #453f3f 100%);
       transition: width 0.5s;
@@ -44,3 +44,7 @@
 #datepicker {
   background: url(../img/calendar.png) right no-repeat #fff;
   background-position-x: 95%; }
+
+.to__top--active {
+  right: 9%;
+  margin-top: 0; }
